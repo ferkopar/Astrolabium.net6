@@ -6,7 +6,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SwissEphCore\SwissEphCore.csproj" />
-    <ProjectReference Include="..\SwissEphNet\SwissEphNet.csproj" />
   </ItemGroup>
 
 </Project>
