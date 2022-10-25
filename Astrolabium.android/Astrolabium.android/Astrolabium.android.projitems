@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="SharedProjectFile_SccProperties">
+    <SharedProjectFile_ProjectGuid>{bda22af9-9a30-4e05-bbb6-02e3b25f4ce4}</SharedProjectFile_ProjectGuid>
+    <SharedProjectFile_SccProjectName>SAK</SharedProjectFile_SccProjectName>
+    <SharedProjectFile_SccAuxPath>SAK</SharedProjectFile_SccAuxPath>
+    <SharedProjectFile_SccLocalPath>SAK</SharedProjectFile_SccLocalPath>
+    <SharedProjectFile_SccProvider>SAK</SharedProjectFile_SccProvider>
+  </PropertyGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>a8de1814-94a0-410b-a2a4-dc5b04e03930</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Astrolabium.android</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)App.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)GettingStarted.Xamarin" />
+  </ItemGroup>
+</Project>
