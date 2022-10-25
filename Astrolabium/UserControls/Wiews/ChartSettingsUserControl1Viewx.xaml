@@ -1,0 +1,79 @@
+﻿<UserControl x:Class="Astrolabium.UserControls.Wiews.ChartSettingsUserControl1View"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Astrolabium.UserControls.Wiews"
+             xmlns:uc="clr-namespace:Astrolabium.UserControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800"           
+             d:DataContext="{d:DesignInstance local:ChartSettingsUserControl1View, IsDesignTimeCreatable=True}" >
+
+    <UserControl.Resources>
+        <Style TargetType="{x:Type CheckBox}" x:Key="myCheckboxStyle">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type CheckBox}">
+                        <StackPanel Orientation="Horizontal">
+                            <!--<Image x:Name="checkboxImage" Source="normal.png" Width="32"/>-->
+                            <Image Name="checkboxImage" Source="/Icons/icons8-delete-48.png" Width="24"/>
+                            <ContentPresenter/>
+                        </StackPanel>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsChecked" Value="True">
+                                <Setter TargetName="checkboxImage" Property="Source" Value="/Icons/icons8-checkmark-48.png"/>
+                            </Trigger>
+                            <MultiTrigger>
+                                <MultiTrigger.Conditions>
+                                    <Condition Property="IsMouseOver" Value="True"/>
+                                    <Condition Property="IsChecked" Value="False"/>
+                                </MultiTrigger.Conditions>
+                            </MultiTrigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style TargetType="{x:Type ComboBox}" x:Key="myListBoxStyle">
+            <Setter Property="ScrollViewer.VerticalScrollBarVisibility" Value="Visible"/>
+        </Style>
+    </UserControl.Resources>
+
+    <StackPanel Orientation="Horizontal">
+        <local:NativeComboAndButtonsUserControl x:Name="NativeCombo" 
+               SelectionChanged="NativeComboSelectionChanged" />
+        <ComboBox SelectedIndex="0" ItemsSource="{Binding Path=ChartTypes, Mode=OneWay}" 
+                  SelectedItem="{Binding Path=ChartType, Mode=TwoWay}"
+                  SelectionChanged="ComboBox_SelectionChanged"  Width="200"                 
+         />
+        <ComboBox SelectedIndex="0" ItemsSource="{Binding Path=HouseSystems, Mode=OneWay}" 
+                  SelectedItem="{Binding Path=HouseSystem, Mode=TwoWay}"
+                  SelectionChanged="ComboBox_SelectionChanged"  Width="200"                 
+         />
+        <ComboBox x:Name="BodyListBox"  ItemsSource="{Binding ViewModell.ShowBody}" 
+                 DataContext="{Binding ViewModell}" 
+                 Style="{StaticResource myListBoxStyle}"
+                 ScrollViewer.CanContentScroll="True"
+                 ScrollViewer.VerticalScrollBarVisibility="Visible"
+                  Width="200"
+                 >
+        <ComboBox.ItemTemplate>
+            <DataTemplate>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="auto"/>
+                    </Grid.ColumnDefinitions>
+                    <CheckBox Style="{StaticResource myCheckboxStyle}"  Click="CheckBox_Checked"  
+                                      IsChecked="{Binding Showed}" Tag="{Binding}" Margin="0,0,0,0" Grid.Column="0">
+                    </CheckBox>
+                    <TextBlock Text="{Binding DisplayCharacter}" FontFamily="{StaticResource HamburgSymbols}" FontSize="24" Margin="0,0,0,0" Grid.Column="1"/>
+                    <TextBlock Text="{Binding Name}" HorizontalAlignment="Center" FontSize="18" Margin="5,0,0,0" Grid.Column="2"/>
+                </Grid>
+            </DataTemplate>
+        </ComboBox.ItemTemplate>
+
+        </ComboBox>
+    </StackPanel>
+</UserControl>
