@@ -1,0 +1,86 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.IO;
+using System.Globalization;
+using System.ComponentModel.DataAnnotations;
+
+namespace Astrolabium.Database.Modell
+{
+    public class Place
+    {
+        [Key]
+        public int GeonameId { get; set; }
+        public string Name { get; set; }
+        public string AsciiName { get; set; }
+        public string AlternateNames { get; set; }
+        public double Latitude { get; set; }
+        public double Longitude { get; set; }
+        public char FeatureClass { get; set; }
+        public string FeatureCode { get; set; }
+        public string CountryCode { get; set; }
+
+        //public string CountryName
+        //{
+        //    get
+        //    {
+        //        return CountryInfo.Get(CountryCode).Name;
+        //    }
+        //}
+        public string AlternateCountryCodes { get; set; }
+        public string AdminCode1 { get; set; }
+        public string AdminName1
+        {
+            get
+            {
+                return string.Empty;
+            }
+        }
+        public string AdminCode2 { get; set; }
+        public string AdminName2
+        {
+            get
+            {
+                return string.Empty;
+            }
+        }
+        public string AdminCode3 { get; set; }
+        public string AdminCode4 { get; set; }
+        public long Population { get; set; }
+        public int Elevation { get; set; }
+        public string ElevationModell { get; set; }
+        public string TimeZone { get; set; }
+        public DateTime ModificationDate { get; set; }
+        public override string ToString() => Name;
+    }
+}
+
+
+
+/*
+ * The main 'geoname' table has the following fields :
+---------------------------------------------------
+0 geonameid         : integer id of record in geonames database
+1 name              : name of geographical point (utf8) varchar(200)
+2 asciiname         : name of geographical point in plain ascii characters, varchar(200)
+3 alternatenames    : alternatenames, comma separated, ascii names automatically transliterated, convenience attribute from alternatename table, varchar(10000)
+4 latitude          : latitude in decimal degrees (wgs84)
+5 longitude         : longitude in decimal degrees (wgs84)
+6 feature class     : see http://www.geonames.org/export/codes.html, char(1)
+7 feature code      : see http://www.geonames.org/export/codes.html, varchar(10)
+8  country code      : ISO-3166 2-letter country code, 2 characters
+9  cc2               : alternate country codes, comma separated, ISO-3166 2-letter country code, 200 characters
+10 admin1 code       : fipscode (subject to change to iso code), see exceptions below, see file admin1Codes.txt for display names of this code; varchar(20)
+11 admin2 code       : code for the second administrative division, a county in the US, see file admin2Codes.txt; varchar(80) 
+12 admin3 code       : code for third level administrative division, varchar(20)
+13 admin4 code       : code for fourth level administrative division, varchar(20)
+24 population        : bigint (8 byte int) 
+15 elevation         : in meters, integer
+16 dem               : digital elevation model, srtm3 or gtopo30, average elevation of 3''x3'' (ca 90mx90m) or 30''x30'' (ca 900mx900m) area in meters, integer. srtm processed by cgiar/ciat
+17 timezone          : the iana timezone id (see file timeZone.txt) varchar(40)
+18 modification date : date of last modification in yyyy-MM-dd format
+
+
+ */
