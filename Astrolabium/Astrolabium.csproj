@@ -1,0 +1,137 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Ephe\**" />
+    <EmbeddedResource Remove="Ephe\**" />
+    <None Remove="Ephe\**" />
+    <Page Remove="Ephe\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Fonts\HamburgSymbols.ttf" />
+    <None Remove="Icons\delete.png" />
+    <None Remove="Icons\edit.png" />
+    <None Remove="Icons\Female-icon.png" />
+    <None Remove="Icons\icons8-checkmark-48.png" />
+    <None Remove="Icons\icons8-delete-48.png" />
+    <None Remove="Icons\icons8-female-40.png" />
+    <None Remove="Icons\icons8-male-40.png" />
+    <None Remove="Icons\Male-icon.png" />
+    <None Remove="Icons\plus.png" />
+    <None Remove="Views\Images\1353183085_save.png" />
+    <None Remove="Views\Images\add.png" />
+    <None Remove="Views\Images\copy.png" />
+    <None Remove="Views\Images\cut.png" />
+    <None Remove="Views\Images\format_painter.png" />
+    <None Remove="Views\Images\go-next.png" />
+    <None Remove="Views\Images\go-previous.png" />
+    <None Remove="Views\Images\help.png" />
+    <None Remove="Views\Images\home.png" />
+    <None Remove="Views\Images\options.png" />
+    <None Remove="Views\Images\paste.png" />
+    <None Remove="Views\Images\personal.png" />
+    <None Remove="Views\Images\quit.png" />
+    <None Remove="Views\Images\redo.png" />
+    <None Remove="Views\Images\save.png" />
+    <None Remove="Views\Images\undo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Astrilabium.Database\Astrolabium.Database.csproj" />
+    <ProjectReference Include="..\Astrolabium.Models\Astrolabium.Models.csproj" />
+    <ProjectReference Include="..\Astrolabium.services\Astrolabium.services.csproj" />
+    <ProjectReference Include="..\FerkopaUtils\FerkopaUtils\FerkopaUtils.csproj" />
+    <ProjectReference Include="..\SweCore\SweCore.csproj" />
+    <ProjectReference Include="..\SwephCore\SwephCore.csproj" />
+    <ProjectReference Include="..\SwissEphCore\SwissEphCore.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="KdTree" Version="1.4.1" />
+    <PackageReference Include="System.Drawing.Common" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Fonts\HamburgSymbols.ttf">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\delete.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\edit.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\Female-icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\icons8-checkmark-48.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\icons8-delete-48.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\icons8-female-40.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\icons8-male-40.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\Male-icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\plus.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Views\Images\1353183085_save.png" />
+    <Resource Include="Views\Images\add.png" />
+    <Resource Include="Views\Images\copy.png" />
+    <Resource Include="Views\Images\cut.png" />
+    <Resource Include="Views\Images\format_painter.png" />
+    <Resource Include="Views\Images\go-next.png" />
+    <Resource Include="Views\Images\go-previous.png" />
+    <Resource Include="Views\Images\help.png" />
+    <Resource Include="Views\Images\home.png" />
+    <Resource Include="Views\Images\options.png" />
+    <Resource Include="Views\Images\paste.png" />
+    <Resource Include="Views\Images\personal.png" />
+    <Resource Include="Views\Images\quit.png" />
+    <Resource Include="Views\Images\redo.png" />
+    <Resource Include="Views\Images\save.png" />
+    <Resource Include="Views\Images\undo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Sources\countryInfo.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Sources\HU.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="SwephData\se00016s.se1">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="SwephData\se00080s.se1">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="SwephData\se00433s.se1">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="SwephData\seas_18.se1">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="TextData\Radix.axml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Styles\" />
+  </ItemGroup>
+
+</Project>

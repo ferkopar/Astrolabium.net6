@@ -1,0 +1,461 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Astrolabium.App" Collapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Astrolabium.Bigyo" Collapsed="true">
+    <Position X="17" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Bigyo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Astrolabium.MainWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQABAAAAAAAAAAAAAAIAAgAAAAAAAAAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Astrolabium.Models.Aspect" Collapsed="true">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAEAAAQAAAAAAAAAAAAAEBAAAAAAAA=</HashCode>
+      <FileName>Models\Aspect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Astrolabium.Models.Configuration" Collapsed="true">
+    <Position X="13.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Configuration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Astrolabium.Models.RepoText" Collapsed="true">
+    <Position X="15.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACgAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Models\ElementText.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Astrolabium.Models.ElementText" Collapsed="true">
+    <Position X="20.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAQAEAAAAAAAAAAAAAAAADAAAAAA=</HashCode>
+      <FileName>Models\ElementText.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Astrolabium.Models.AstrolabiumRepository" Collapsed="true">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ElementText.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Astrolabium.Models.EphemerisResult" Collapsed="true">
+    <Position X="10" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAQAAAAAAAgBAAASEAAAAUABBAQAAAwABIBAAAAAQQ=</HashCode>
+      <FileName>Models\EphemerisResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Astrolabium.Models.EphemerisResultExtender" Collapsed="true">
+    <Position X="11.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Models\EphemerisResultExtender.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Astrolabium.Models.HouseValues" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAEAAAgAEAAAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Models\HouseValues.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Astrolabium.Models.InputCalculation" Collapsed="true">
+    <Position X="18.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAiAAAAgEAAAAAgAAAIgAAABBAAAAAAAAIAAYAAEAA=</HashCode>
+      <FileName>Models\InputCalculation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Astrolabium.Models.Location" Collapsed="true">
+    <Position X="20.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAIAAAAAAEgAAAIAgAAAAAgIAAAIAAAAAAAiA=</HashCode>
+      <FileName>Models\Location.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Astrolabium.Models.Native" Collapsed="true">
+    <Position X="20.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgQAAAArAAUBAAAIAQAAAAAAAAAAAABAAAgAAA=</HashCode>
+      <FileName>Models\Native.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Astrolabium.Models.PlanetValues" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAEQAEAAAAAEAAAIIAAAAAAAEABgAAICAAAAAAA=</HashCode>
+      <FileName>Models\PlanetValues.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Astrolabium.Models.SignValues" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABQAAAEAAABAEAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Models\SignValues.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Astrolabium.Models.Signs" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAABBAACACAAAAAAAAAAAAEoAgABAEAAAA=</HashCode>
+      <FileName>Models\SignValues.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Astrolabium.Common.Basics" Collapsed="true">
+    <Position X="15.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAKAAAAAAAAwAAAAAAEAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Common\Basics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Astrolabium.Common.Body" Collapsed="true">
+    <Position X="18.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAIAAABAgIAAAAAAA=</HashCode>
+      <FileName>Common\Body.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Astrolabium.Common.Circle" Collapsed="true">
+    <Position X="11.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAIBAAAAAAAAgAAAAAAAAAAACAAEAAAAAAgAAAAYAA=</HashCode>
+      <FileName>Common\Circle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Astrolabium.Common.HoroscopeElement" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\HoroscopeElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Astrolabium.Common.LongitudeAstrolabium" Collapsed="true">
+    <Position X="10" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAgAAAAAAAEUAEBAEAAAAAAAAIIAgAoAAgAAAQ=</HashCode>
+      <FileName>Common\Longitude.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Astrolabium.Common.LongitudeConverter" Collapsed="true">
+    <Position X="11.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\Longitude.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Astrolabium.Common.ZodiacHouse" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QBIEBAAAhAAAAAAEECBAgAQAAAAAAAABAAAsEAAAABA=</HashCode>
+      <FileName>Common\ZodiacHouse.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Astrolabium.Converters.BoolToImageConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAIAAAAAAAAgAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Converters\BoolToImageConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Astrolabium.CustomControls.IChartPanel" Collapsed="true">
+    <Position X="17" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CustomControls\IChartPanel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Astrolabium.CustomControls.WheelPanelEventArgs" Collapsed="true">
+    <Position X="13.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAIgAAAAAAA=</HashCode>
+      <FileName>CustomControls\WheelPanel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Astrolabium.CustomControls.WheelPanel" Collapsed="true">
+    <Position X="11.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAIAAAQBAAAAQAAIJQAAAAAICBQIAAAAEA=</HashCode>
+      <FileName>CustomControls\WheelPanel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Astrolabium.CustomControls.Rectangles" Collapsed="true">
+    <Position X="13.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAQBAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CustomControls\WheelPanel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Astrolabium.Helpers.PlanetCoverter" Collapsed="true">
+    <Position X="18.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\PlanetCoverter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Astrolabium.Helpers.PlanetHelper" Collapsed="true">
+    <Position X="20.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAgAAA=</HashCode>
+      <FileName>Helpers\PlanetHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Astrolabium.Helpers.WheelGenerator" Collapsed="true">
+    <Position X="10" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\WheelGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Astrolabium.Services.CalcService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Services\CalcService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Astrolabium.Services.NativeService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAARAAAAACAAAAAQEAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\NativeService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Astrolabium.UserControls.ViewModels.DateTimePickerEventArgs" Collapsed="true">
+    <Position X="17" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>UserControls\ViewModels\DateTimePickerViewModell.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Astrolabium.UserControls.ViewModels.DateTimePickerViewModell" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAkAAAAJAAAAAAAAgAAAAIAAAQQCSIEAAAiAAAAAAA=</HashCode>
+      <FileName>UserControls\ViewModels\DateTimePickerViewModell.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Astrolabium.UserControls.ViewModels.DateTimePickerWiewModell" Collapsed="true">
+    <Position X="18.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UserControls\ViewModels\DateTimePickerWiewModell.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Astrolabium.UserControls.ViewModels.NativeEditorViewModell" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAIBQCAAAAEAAAAACAAAABAAAAAAAAiAAgAAAAAAA=</HashCode>
+      <FileName>UserControls\ViewModels\NativeEditorViewModell.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Astrolabium.UserControls.ViewModels.GeoNameExtender" Collapsed="true">
+    <Position X="13.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>UserControls\ViewModels\NativeEditorViewModell.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Astrolabium.UserControls.ViewModels.NativeListViewModell" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAEQAAAAAAAAAAACAAAAAgAACAAAAAg=</HashCode>
+      <FileName>UserControls\ViewModels\NativeListViewModell.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Astrolabium.UserControls.ViewModels.VheelSettingsViewModell" Collapsed="true">
+    <Position X="20.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UserControls\ViewModels\VheelSettingsViewModell.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Astrolabium.UserControls.Wiews.DatePickerDateFormat" Collapsed="true">
+    <Position X="15.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAADAAAAAAAACBAAgAIAAAAAAAQAAAgAAAAAA=</HashCode>
+      <FileName>UserControls\Wiews\DatePickerDateFormat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Astrolabium.UserControls.Wiews.NativeEditorEventArgs" Collapsed="true">
+    <Position X="10" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>UserControls\Wiews\NativeEditorView.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Astrolabium.UserControls.Wiews.NativeEditorView" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAgEAAAAAAAAAAAEABAIBAAAAgAQAAAAAAAA=</HashCode>
+      <FileName>UserControls\Wiews\NativeEditorView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Astrolabium.UserControls.Wiews.NativeListEventArgs" Collapsed="true">
+    <Position X="13.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>UserControls\Wiews\NativeListView.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Astrolabium.UserControls.Wiews.NativeListView" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAEAAAABAABAAAAABACAAAA=</HashCode>
+      <FileName>UserControls\Wiews\NativeListView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Astrolabium.UserControls.Wiews.WheelSettingsView" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UserControls\Wiews\WheelSettingsView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Astrolabium.ViewModels.CalculationResultViewModel" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAABAhBAAAQAABAAQAJBAQAAAgiBIBEAFAAQY=</HashCode>
+      <FileName>ViewModels\CalculationResultViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Astrolabium.ViewModels.ModalWindowsViewModell" Collapsed="true">
+    <Position X="18.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>ViewModels\ModalWindowsViewModell.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Astrolabium.ViewModels.ViewModelBase" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\ViewModelBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Astrolabium.Windows.ModalViewWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAABAAAgAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAIA=</HashCode>
+      <FileName>Windows\ModalViewWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Astrolabium.Windows.ModalWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAAAAAAIARAAAABAAAAAAAAIAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Windows\ModalWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Astrolabium.Windows.PlanetTextModalWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Windows\PlanetTextModalWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="Astrolabium.Models.IAspectable" Collapsed="true">
+    <Position X="10" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\IAspectable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Astrolabium.Services.ICalcService" Collapsed="true">
+    <Position X="11.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\ICalcService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Astrolabium.Services.INativeService" Collapsed="true">
+    <Position X="13.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAQAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\INativeServices.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Astrolabium.Models.AspectType" Collapsed="true">
+    <Position X="10" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEBAAAAAAAAAAASCAAAAAAAAAgAAAAQCAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Aspect.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Astrolabium.Models.SexEnum" Collapsed="true">
+    <Position X="11.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Models\Native.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="Astrolabium.Models.NativeSavedEventHandler" Collapsed="true">
+    <Position X="17" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Native.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Astrolabium.CustomControls.MouseEnterPlanetHandler" Collapsed="true">
+    <Position X="11.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CustomControls\WheelPanel.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Astrolabium.CustomControls.MouseExitPlanetHandler" Collapsed="true">
+    <Position X="13.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CustomControls\WheelPanel.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Astrolabium.CustomControls.MouseClickPlanetHandler" Collapsed="true">
+    <Position X="10" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CustomControls\WheelPanel.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Astrolabium.UserControls.Wiews.NativelistButtonClickedEventHandler" Collapsed="true">
+    <Position X="15.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>UserControls\Wiews\NativeListView.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
