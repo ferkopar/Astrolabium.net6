@@ -1,0 +1,27 @@
+﻿<Window x:Class="Astrolabium.Windows.ModalWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Astrolabium.Windows"
+        mc:Ignorable="d"
+        Title="ModalWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <TextBox Name="txtSomeBox" Grid.Row="0" Grid.Column="0" Text="GUGUGGUGU"/>
+
+        <Button Name="btnSaveData" Grid.Row="2" Grid.Column="1" Click="btnSaveData_Click" Content="Save" />
+        <RichTextBox Name="RichTextBox" HorizontalAlignment="Left" Height="359" Grid.Row="1" VerticalAlignment="Top" Width="792">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text="RichTextBox"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+    </Grid>
+</Window>
