@@ -6,8 +6,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\FerkopaUtils\FerkopaUtils\FerkopaUtils.csproj" />
-  </ItemGroup>
-
 </Project>

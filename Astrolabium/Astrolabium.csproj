@@ -44,9 +44,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Astrilabium.Database\Astrolabium.Database.csproj" />
-    <ProjectReference Include="..\Astrolabium.Models\Astrolabium.Models.csproj" />
     <ProjectReference Include="..\Astrolabium.services\Astrolabium.services.csproj" />
-    <ProjectReference Include="..\FerkopaUtils\FerkopaUtils\FerkopaUtils.csproj" />
     <ProjectReference Include="..\SweCore\SweCore.csproj" />
     <ProjectReference Include="..\SwephCore\SwephCore.csproj" />
     <ProjectReference Include="..\SwissEphCore\SwissEphCore.csproj" />

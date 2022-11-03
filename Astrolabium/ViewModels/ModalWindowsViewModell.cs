@@ -14,7 +14,8 @@ namespace Astrolabium.ViewModels
     {
         private readonly List<ElementText> _elementTexts;
 
-        public ModalWindowsViewModell() => _elementTexts = XmlSerializerUtil.Deserialize<List<ElementText>>(@".\TextData\Radix.axml");
+        public ModalWindowsViewModell() => 
+            _elementTexts = XmlSerializerUtil.Deserialize<List<ElementText>>(@".\TextData\Radix.axml");
 
         public ElementText GetPlantSignText(string planetName, string signName)
         {
